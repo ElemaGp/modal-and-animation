@@ -1,0 +1,27 @@
+.modalWrapper{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    padding: 1rem;
+    position: absolute;
+    right: 20px;
+    background-color: white;
+}
+
+.contactUs:hover{
+    background-color: rgb(155, 152, 152);
+    transform: scale(1.1);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.modalbutton{
+    width: max-content;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
